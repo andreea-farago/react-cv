@@ -3,10 +3,14 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Work from "./pages/Work";
 import Contact from "./pages/Contact";
+import MobileNav from "./components/MobileNav";
+import DesktopNav from "./components/DesktopNav";
 
 function App() {
   return (
     <div>
+      <MobileNav />
+      <DesktopNav />
       <Switch>
         <Route path="/" exact={true}>
           <Home />
