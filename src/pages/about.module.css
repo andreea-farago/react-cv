@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+.title{
+    text-align: center;
+    font-size: 40px;
+    margin:0;
+    padding-bottom: 20px;
+    color: #3a3d72;
+}
+.container{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.columnLeft img{
+    width: 300px;
+    height: 400px;
+    object-fit:cover;
+    border-radius: 10px;
+}
+.subtitle{
+    color: #63a1c0;
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+    font-size: 30px;
+    margin: 0;
+}
+.columnRight{
+    width: 55%;
+}
+.columnRight p{
+    font-size: 16px;
+    text-align: justify;
+}
+.columnRight a{
+    display: inline-block;
+    color: #4d5198;
+    text-decoration: none;
+    font-weight: 900;
+    background-color:   #ffcce7;
+    padding: 10px 20px;
+    border: 3px solid   #ffcce7;
+    border-radius: 7px;
+    margin: 10px 0;
+    font-size:15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.columnRight a:hover,
+.columnRight a:active{
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1024px){
+    .container{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .columnLeft{
+        justify-content: center;
+        margin:0 60px;
+    }
+    .columnRight{
+        width:100%;
+    }
+    .subtitle{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .title{
+        font-size: 30px;
+    }
+    .subtitle h3{
+        font-size: 20px;
+    }
+    .subtitle img{
+        width: 50px;
+        height: 25px;
+    }
+    .columnLeft img{
+        width: 200px;
+        height: 300px;
+    }
+}

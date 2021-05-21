@@ -3,9 +3,9 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Work from "./pages/Work";
 import Contact from "./pages/Contact";
-import MobileNav from "./components/MobileNav";
-import DesktopNav from "./components/DesktopNav";
-
+import MobileNav from "./components/navigation/MobileNav";
+import DesktopNav from "./components/navigation/DesktopNav";
+import Card from "./components/Card";
 function App() {
   return (
     <div>
@@ -16,7 +16,9 @@ function App() {
           <Home />
         </Route>
         <Route path="/about">
-          <About />
+          <Card>
+            <About />
+          </Card>
         </Route>
         <Route path="/work">
           <Work />
