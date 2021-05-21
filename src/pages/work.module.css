@@ -1,0 +1,160 @@
+.title{
+    text-align: center;
+    font-size: 40px;
+    margin:0;
+    padding-bottom: 20px;
+    color: #3a3d72;
+}
+/* skills styles */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+.box{
+    background-color: #4d5198;
+    border-radius: 8px;
+    padding:20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: calc(33% - 40px);
+    cursor: pointer;
+}
+.box:hover,
+.box:active{
+    background-color:#ffcce7;
+    box-shadow: rgba(101, 58, 150, 0.56) 0px 22px 70px 4px;   
+    
+}
+.box:hover p,
+.box:active p,
+.box:hover h3,
+.box:active h3,
+.box:hover ul,
+.box:active ul{
+    display:block;
+    color: #4d5198;
+}
+.box:hover img,
+.box:active img{
+    display:none;
+}
+.item{
+    color:white;
+    text-align: center;
+}
+.item img{ 
+    height: 90px;
+}
+.item p{
+    padding:0;
+    display: none;
+}
+.item ul{
+    display:none;
+    list-style-type: square;
+    text-align: left;
+}
+
+.pointer{
+    font-size: 20px;
+    color:white;
+}
+ /* projects styles */
+ .project{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 60px;
+    align-items:center;
+}
+
+.text{
+    width:40%;
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+}
+.text p{
+    margin-right:10px;
+}
+.text span{
+    font-weight: bold;
+    color:#3a3d72;
+}
+.photo img{
+    border-color:#ffcce7 #4d5198;
+    border-image:none;
+    border-radius: 0px 50px 0px 50px;
+    border-style:solid;
+    border-width:10px;
+    width:50vw;
+    display: block;
+    margin: auto;
+}
+.button{
+    width:100%;
+    text-align: center;
+}
+.button a{
+    display: inline-block;
+    color: #4d5198;
+    text-decoration: none;
+    font-weight: 900;
+    background-color:   #ffcce7;
+    padding: 10px 20px;
+    border: 3px solid   #ffcce7;
+    border-radius: 7px;
+    margin: 10px 0;
+    font-size:15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
+.button a:hover,
+.button a:active{
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1024px){
+    .container{
+        padding:40px 0px;
+    }
+    .box{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+    .box:hover,
+    .box:active{
+        
+        transform: scale(1.1);
+    }
+}
+@media screen and (max-width: 768px){
+    .box{
+        width:80%;
+    }
+    .box:hover,
+    .box:active{
+        width: 80%;
+    }
+    .project{
+        flex-direction: column;
+    }
+    .projectReverse{
+        flex-direction: column-reverse;
+    }
+    .text{
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        text-align: justify;
+    }
+    .photo img{
+        width: 70vw;
+    }
+}
+@media screen and (max-width: 574px){
+    .text{
+        flex-direction: column;
+        align-items:flex-start;
+    }
+}
