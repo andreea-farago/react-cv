@@ -115,6 +115,9 @@
 }
 
 @media screen and (max-width: 1024px){
+    .title{
+        padding-top: 30px;
+    }
     .container{
         padding:40px 0px;
     }
