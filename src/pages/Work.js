@@ -42,13 +42,13 @@ function Work() {
                 Built using: <span>HTML, CSS, BOOTSTRAP, REACT</span>
               </p>
             </div>
-            <div className={classes.button}>
-              <a
-                type="button"
+            <div>
+              <button><a
                 href="https://codepen.io/andreea-farago/pen/BapOoJY"
               >
                 View project
               </a>
+              </button>
             </div>
           </div>
           <div className={classes.photo}>
@@ -70,13 +70,13 @@ function Work() {
                 Built using: <span>HTML, CSS, JAVASCRIPT</span>
               </p>
             </div>
-            <div className={classes.button}>
-              <a
-                type="button"
+            <div>
+              <button><a
                 href="https://codepen.io/andreea-farago/pen/JjEwdVv"
               >
                 View project
               </a>
+              </button>
             </div>
           </div>
         </div>

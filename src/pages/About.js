@@ -26,9 +26,10 @@ function About() {
             certainly more to learn, more problems to solve and more to build
             every day that pass. And for this, I am exceptionally thankful.
           </p>
-          <a href="../images/resume.pdf" download>
+          <button><a href="../images/resume.pdf" download>
             Download CV
-          </a>
+            </a>
+          </button>
         </div>
       </div>
     </div>
