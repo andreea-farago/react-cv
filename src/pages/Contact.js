@@ -1,3 +1,4 @@
+import React, { Component } from 'react';
 import classes from "./contact.module.css";
 import Card from "../components/Card";
 import Info from "../components/contact/Info";

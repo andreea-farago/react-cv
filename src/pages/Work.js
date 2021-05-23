@@ -1,3 +1,4 @@
+import React, { Component } from 'react';
 import classes from "./work.module.css";
 import box1 from "../images/box1.png";
 import box2 from "../images/box2.png";

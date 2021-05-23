@@ -1,3 +1,4 @@
+import React, { Component } from 'react';
 import classes from "../../pages/work.module.css";
 import { FaRegHandPointUp } from "react-icons/fa";
 function SkillsBox(props) {

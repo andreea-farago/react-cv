@@ -1,3 +1,4 @@
+import React, { Component } from 'react';
 import classes from "./about.module.css";
 import photo from "../images/photo.jpg";
 function About() {

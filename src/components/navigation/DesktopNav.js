@@ -1,3 +1,4 @@
+import React, { Component } from 'react';
 import NavLinks from "./NavLinks";
 import classes from "./Nav.module.css";
 function DesktopNav (){

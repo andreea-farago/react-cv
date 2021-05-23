@@ -1,3 +1,4 @@
+import React, { Component } from 'react';
 import classes from "../../pages/contact.module.css";
 function InfoBox(props){
     return (
